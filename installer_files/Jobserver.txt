@@ -1,0 +1,8 @@
+mode=unattended
+installType=custom
+
+prefix=./Talend
+licenseFile=/license
+
+enable-components=jobserver
+disable-components=tac,logserv,cmdline,soa,runtime,filescale,svn,tdqp,serv,studio,esb
