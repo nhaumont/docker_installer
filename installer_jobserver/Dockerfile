@@ -2,9 +2,7 @@ FROM installer_files
 
 ENV PRODUCT Jobserver
 
-RUN ./install.sh && \
-    rm -rf dist && \
-    rm -rf Talend-Installer*
+RUN ./run_install.sh
 
 EXPOSE 8000 8001 8888
 

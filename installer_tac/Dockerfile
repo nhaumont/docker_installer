@@ -1,10 +1,8 @@
-FROM 10.42.150.129:5000/library/installer_files
+FROM installer_files
 
 ENV PRODUCT TAC
 
-RUN ./install.sh && \
-    rm -rf dist && \
-    rm -rf Talend-Installer*
+RUN ./run_install.sh
 
 EXPOSE 8080
 

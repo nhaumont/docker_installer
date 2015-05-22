@@ -5,4 +5,4 @@ prefix=./Talend
 licenseFile=/license
 
 enable-components=tac
-disable-components=jobserver,logserv,cmdline,soa,runtime,filescale,svn,tdqp,serv,studio,esb
+disable-components=jobserver,logserv,cmdline,soa,runtime,filescale,svn,tdqp,serv,studio,esb,mdm,sap_rfc

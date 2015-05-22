@@ -16,7 +16,7 @@ quit
 END_SCRIPT
 
 #Parse lastnb.txt
-BRANCH_NB=$(cat $FILE | grep $1 | head -1)
+BRANCH_NB=$(tac $FILE | grep $1 | head -1)
 LAST_NB=$(echo $BRANCH_NB | cut -d "/" -f 5)
 
 echo $BRANCH_NB

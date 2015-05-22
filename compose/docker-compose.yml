@@ -1,0 +1,14 @@
+tac:
+  image: 10.42.150.129:5000/tac
+  tty: true
+  links:
+    - jobserver
+    - commandline
+  ports:
+    - "8080:8080"
+
+jobserver:
+  image: 10.42.150.129:5000/jobserver
+
+commandline:
+  image: 10.42.150.129:5000/commandline
